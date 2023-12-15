@@ -1,0 +1,13 @@
+def isValidSubsequence(array, sequence):
+    array2_Index=0
+    seq_is=False #assuming sequence is not there
+    for array1_value in array:
+        if sequence[array2_Index]== array1_value:
+            array2_Index+=1
+        if array2_Index==len(sequence):  #once we have completed iterating all values oif array2, or sequence
+            seq_is=True #set the sequence is there as True
+            break #get out of the loop. We are done.
+    return seq_is
+
+#Time: O(n)
+#Space: O(1)
