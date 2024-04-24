@@ -1,0 +1,6 @@
+We will have  a scores {} and iterate result and competition.
+
+Once we get a winner, we will update bestteam(currentBestTeam) string and update the scores.
+
+
+After all iteration, we will get the bestteam(currentBestTeam) .
